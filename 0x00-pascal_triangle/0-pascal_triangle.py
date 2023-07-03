@@ -3,12 +3,14 @@
 
 
 def pascal_triangle(n):
-    """fucntion to get the numbers of pascal triangle"""
+    """ lists of number representing the pascal triangle"""
     if n <= 0:
         return []
+
     pascal_triangle = [0] * n
 
     for i in range(n):
+        # define a row and fill first and last
         new_row = [0] * (i+1)
         new_row[0] = 1
         new_row[len(new_row) - 1] = 1
