@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def canUnlockAll(boxes):
     """
     Function that checks if available
@@ -19,3 +18,4 @@ def canUnlockAll(boxes):
         if box not in boxes[0]:
             return False
     return True
+#newline
