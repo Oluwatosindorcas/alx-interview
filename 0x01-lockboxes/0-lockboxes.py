@@ -18,4 +18,3 @@ def canUnlockAll(boxes):
         if box not in boxes[0]:
             return False
     return True
-#newline
